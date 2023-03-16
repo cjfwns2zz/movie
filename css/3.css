@@ -1,0 +1,63 @@
+ @import "reset.css";
+
+/* body>div>h1{
+    margin:0;
+    padding:10px;
+    font-size:30px;
+} */
+
+.header > h1{
+    margin: 0;
+    padding: 10px;
+    font-size : 30px;
+    font-weight:900;
+    text-align:center   
+}
+
+.content{
+    height: 118%;
+    display:flex;
+}
+
+.nav{
+    font-weight: bolder;
+    flex:20%;
+    background-color: peachpuff;
+    font-size: 20px;
+    padding:20px;
+    width: 30%;
+    float:left;
+}
+.nav>li{
+    padding:10px;
+}
+
+
+.section{
+    background-color:palegreen;
+    width: 70%;
+    float:right;
+    flex :80%;
+}
+
+.section>h2 {
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 10px;
+}
+.p1>p{
+    padding: 10px;
+}
+.section>p {
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 10px;
+}
+.section img {
+    width:300;
+    padding: 0px;
+}
+.section iframe{
+    width:400;
+    height: 300; 
+}

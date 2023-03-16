@@ -1,0 +1,19 @@
+h1{
+    background-color: aqua;
+}
+
+
+
+.content{
+    display : flex;
+}
+
+nav{
+    background-color: peachpuff;
+    flex:30%
+}
+
+section{
+    background-color: yellowgreen;
+    flex:70%
+}
